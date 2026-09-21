@@ -1,0 +1,18 @@
+# Ignore everything at the root
+/*
+
+# Track this file
+!/.gitignore
+
+# Track Homework and everything inside it
+!/Homework/
+!/Homework/**
+
+# Ignore macOS junk anywhere inside Homework
+**/.DS_Store
+
+# Ignore Jupyter checkpoints anywhere inside Homework
+**/.ipynb_checkpoints/
+**/.ipynb_checkpoints/**
+*~
+/Homework/Homework0/
